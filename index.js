@@ -1,0 +1,36 @@
+const electron = require('electron');
+const app = electron.app;
+const BrowserWindow = electron.BrowserWindow;
+
+let screen;
+
+const renderApp = () => {
+ // create the browser window
+ screen = new BrowserWindow()
+ // render index.html which will contain our root Vue component
+ screen.loadURL('https://lexmartinez.com/')
+
+ // dereference the screen object when the window is closed
+ screen.on('closed', () => {
+  screen = null;
+ });
+}
+
+// call the renderApp() method when Electron has finished initializing
+app.on('ready', renderApp);
+
+// when all windows are closed, quit the application on Windows/Linux
+app.on('window-all-closed', () => {
+ // only quit the application on OS X if the user hits cmd + q
+ if (process.platform !== 'darwin') {
+  app.quit();
+ }
+});
+
+app.on('activate', () => {
+ // re-create the screen if the dock icon is clicked in OS X and no other
+ // windows were open
+ if (screen === null) {
+  renderApp();
+ }
+});

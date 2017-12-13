@@ -1,0 +1,28 @@
+{
+  "name": "ocr-electron-vue",
+  "version": "0.0.1",
+  "description": "A Simple OCR Application built on Electron, Vue.js & Tesseract.js",
+  "main":"index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexmartinez/ocr-electron-vue.git"
+  },
+  "keywords": [
+    "electron",
+    "vuejs",
+    "ocr",
+    "tesseract"
+  ],
+  "author": "Lex Martinez<lex0316@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lexmartinez/ocr-electron-vue/issues"
+  },
+  "homepage": "https://lexmartinez.com/read/create-simple-ocr-electron-vue-tesseract",
+  "devDependencies": {
+    "electron": "^1.7.9"
+  }
+}
