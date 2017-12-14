@@ -75,8 +75,10 @@
     "webpack-merge": "^4.1.0"
   },
   "dependencies": {
+    "tesseract.js": "^1.0.10",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuetify": "^0.17.4"
   },
   "engines": {
     "node": ">= 4.0.0",

@@ -18,14 +18,14 @@ const renderApp = () => {
 
 // call the renderApp() method when Electron has finished initializing
 app.on('ready', ()=>{
- setTimeout(renderApp, 3000);
+ setTimeout(renderApp, 3000)
 });
 
 // when all windows are closed, quit the application on Windows/Linux
 app.on('window-all-closed', () => {
  // only quit the application on OS X if the user hits cmd + q
  if (process.platform !== 'darwin') {
-  app.quit();
+  app.quit()
  }
 });
 
@@ -33,6 +33,6 @@ app.on('activate', () => {
  // re-create the screen if the dock icon is clicked in OS X and no other
  // windows were open
  if (screen === null) {
-  renderApp();
+  renderApp()
  }
 });
