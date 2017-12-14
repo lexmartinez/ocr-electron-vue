@@ -7,8 +7,8 @@ let screen;
 const renderApp = () => {
  // create the browser window
  screen = new BrowserWindow()
- // render index.html which will contain our root Vue component
- screen.loadURL('https://lexmartinez.com/')
+ // render the required website/entrypoint
+ screen.loadURL('http://localhost:8080/')
 
  // dereference the screen object when the window is closed
  screen.on('closed', () => {
@@ -17,7 +17,9 @@ const renderApp = () => {
 }
 
 // call the renderApp() method when Electron has finished initializing
-app.on('ready', renderApp);
+app.on('ready', ()=>{
+ setTimeout(renderApp, 3000);
+});
 
 // when all windows are closed, quit the application on Windows/Linux
 app.on('window-all-closed', () => {
