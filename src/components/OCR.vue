@@ -1,6 +1,6 @@
 <template>
   <v-app id="inspire" dark>
-    <v-toolbar app fixed clipped-left>
+    <v-toolbar app fixed clipped-left style="padding-top: 20px">
       <v-toolbar-title>Simple OCR</v-toolbar-title>
       <v-spacer></v-spacer>
       <span v-if="isSuccess || isFailed">

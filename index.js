@@ -6,7 +6,7 @@ let screen;
 
 const renderApp = () => {
  // create the browser window
- screen = new BrowserWindow()
+ screen = new BrowserWindow({titleBarStyle: 'hidden', width: 900, height: 600, maximizable: false})
  // render the required website/entrypoint
  screen.loadURL('http://localhost:8080/')
 
