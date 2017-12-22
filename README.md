@@ -4,6 +4,8 @@ Nowadays **JavaScript** is one of the most popular programming languages, and us
 
 > [Read full article on the blog](https://lexmartinez.com/read/create-simple-ocr-electron-vue-tesseract)
 
+![](https://github.com/lexmartinez/ocr-electron-vue/raw/master/screenshots/demo.gif)
+
 ## Build Setup
 
 ``` bash
