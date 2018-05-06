@@ -2,7 +2,7 @@
 
 :card_index: A Simple OCR Application built on Electron, Vue.js & Tesseract.js
 
-## Original idea from blog article: Creating a Simple OCR App with Electron, Vue.js & Tesseract.js 
+#### Original idea from blog article: Creating a Simple OCR App with Electron, Vue.js & Tesseract.js 
 Nowadays **JavaScript** is one of the most popular programming languages, and used for a lot of fields and platforms through Web. In this tutorial we're going to learn how to build an OCR desktop application with **JavaScript** using **Electron** and **Tesseract.js** ... and guess what... our FE will be implemented with **Vue.js**
 
 > [Read full article on the blog](https://lexmartinez.com/read/create-simple-ocr-electron-vue-tesseract)
