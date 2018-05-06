@@ -5,7 +5,7 @@
 [![Last version](https://img.shields.io/badge/version-v1.0.0-blue.svg)](https://github.com/lexmartinez/ocr-electron-vue/blob/master/CHANGELOG.md)
 <br/>
 
-:card_index: A Simple OCR Application built on Electron, Vue.js & Tesseract.js
+A Simple OCR Application built on Electron, Vue.js & Tesseract.js
 
 #### Original idea from blog article: Creating a Simple OCR App with Electron, Vue.js & Tesseract.js 
 
