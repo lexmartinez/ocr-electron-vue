@@ -1,5 +1,10 @@
 # ocr-electron-vue
 
+[![Build Status](https://travis-ci.org/lexmartinez/ocr-electron-vue.svg?branch=master)](https://travis-ci.org/lexmartinez/ocr-electron-vue)
+[![GitHub license](https://img.shields.io/github/license/lexmartinez/ocr-electron-vue.svg)](https://github.com/lexmartinez/ocr-electron-vue/blob/master/LICENSE.md)
+[![Last version](https://img.shields.io/badge/version-v1.0.0-blue.svg)](https://github.com/lexmartinez/ocr-electron-vue/blob/master/CHANGELOG.md)
+<br/>
+
 :card_index: A Simple OCR Application built on Electron, Vue.js & Tesseract.js
 
 #### Original idea from blog article: Creating a Simple OCR App with Electron, Vue.js & Tesseract.js 
