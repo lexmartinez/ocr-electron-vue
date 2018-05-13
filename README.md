@@ -1,8 +1,8 @@
 # ocr-electron-vue
 
-[![Build Status](https://travis-ci.org/lexmartinez/ocr-electron-vue.svg?branch=master)](https://travis-ci.org/lexmartinez/ocr-electron-vue)
-[![GitHub license](https://img.shields.io/github/license/lexmartinez/ocr-electron-vue.svg)](https://github.com/lexmartinez/ocr-electron-vue/blob/master/LICENSE.md)
-[![Last version](https://img.shields.io/badge/version-v1.0.0-blue.svg)](https://github.com/lexmartinez/ocr-electron-vue/blob/master/CHANGELOG.md)
+[![Build Status](https://img.shields.io/travis/lexmartinez/ocr-electron-vue/master.svg?style=for-the-badge)](https://travis-ci.org/lexmartinez/ocr-electron-vue)
+[![GitHub license](https://img.shields.io/github/license/lexmartinez/ocr-electron-vue.svg?style=for-the-badge)](https://github.com/lexmartinez/ocr-electron-vue/blob/master/LICENSE.md)
+[![Last version](https://img.shields.io/badge/version-v1.0.0-blue.svg?style=for-the-badge)](https://github.com/lexmartinez/ocr-electron-vue/blob/master/CHANGELOG.md)
 <br/>
 
 A Simple OCR Application built on Electron, Vue.js & Tesseract.js
